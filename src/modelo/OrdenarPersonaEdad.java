@@ -11,9 +11,9 @@ public class OrdenarPersonaEdad implements Comparator<Persona> {
 
 	private int ordenarAs(Persona p1, Persona p2) {
 		if (p1.getEdad() < p2.getEdad()) {
-			return 1;
-		} else if (p1.getEdad() > p2.getEdad()) {
 			return -1;
+		} else if (p1.getEdad() > p2.getEdad()) {
+			return 1;
 		} else {
 			return 0;
 		}
